@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|145415000|82130442|c3e77961-ddb6-4392-8b9a-91f8ff168bfc|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|140462002|76861499|3345f878-53c2-4f1a-8395-5e23e7e9b32e|b8beb436-f6e1-4b31-855d-3643e43f77ab|B.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -433,7 +436,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -448,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "C-NTR-CPU-10.kicad_pro",
+    "filename": "DS_to_SNES_Controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -544,11 +547,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part No",
+          "name": "Part No",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 0)
-  (lib (name "C-NTR-CPU-10-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/C-NTR-CPU-10-eagle-import.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "DS-Footprints")(type "KiCad")(uri "${KIPRJMOD}/DS-to_SNES-Controller.kicad_sym")(options "")(descr ""))
 )
